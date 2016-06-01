@@ -7,9 +7,8 @@ import com.google.gson.GsonBuilder;
  * Created by Timothy Andis (TadahTech)
  */
 public class JsonHelper {
-
-    public static Gson GSON = new GsonBuilder()
+    public static Gson GSON = new GsonBuilder() {
             .setPrettyPrinting()
             .create();
-
+    }
 }
